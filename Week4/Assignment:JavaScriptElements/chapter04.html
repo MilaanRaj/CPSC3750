@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <title>Assignments: Javascript Elements!</title>
+            <link rel="stylesheet" href="mystyle.css">
+            <style>
+                #buttonRed{
+                    color: white;
+                    border: 5px solid white;
+                    text-align: center;
+                    font-size: 150%;
+                    width: 32%;
+                    float: left;
+                    background: black;
+                }
+
+                #buttonGreen {
+                    color: white;
+                    border: 5px solid white;
+                    text-align: center;
+                    font-size: 150%;
+                    width: 32%;
+                    float: left;
+                    background: black;
+                }
+                #buttonBlue{
+                    color: white;
+                    border: 5px solid white;
+                    text-align: center;
+                    font-size: 150%;
+                    width: 32%;
+                    float: left;
+                    background: black;
+                }
+                #bgColor{
+                    background-color: black;
+                }
+
+                #buttonRed:hover  {
+                    color: black;
+                    border: 5px solid black;
+                    text-align: center;
+                    font-size: 150%;
+                    width: 32%;
+                    float: left;
+                    background: white;
+                }
+                #buttonGreen:hover  {
+                    color: black;
+                    border: 5px solid black;
+                    text-align: center;
+                    font-size: 150%;
+                    width: 32%;
+                    float: left;
+                    background: white;
+                }
+                #buttonBlue:hover  {
+                    color: black;
+                    border: 5px solid black;
+                    text-align: center;
+                    font-size: 150%;
+                    width: 32%;
+                    float: left;
+                    background: white;
+                }
+            </style>
+        </head>
+        <body id="bgColor">
+            <ul>
+                <li><a class="active" href="http://milaanraj.com/">Home</a></li>
+                <li><a href="../../assignments.html">Assignments</a></li>
+                <li><a href="../../../Personal/personal.html">Personal</a></li>
+                <li style="float:right"><a href="About/about.html">About</a></li>
+              </ul>
+              <button id="buttonRed" onclick="ClickcounterRed()" onmouseover="onHoverRed()">Red count: <span id="count1"></span> hover: <span id="hover1"></span></button>
+              <button id="buttonGreen" onclick="ClickcounterGreen()" onmouseover="onHoverGreen()">Green count: <span id="count2"></span> hover: <span id="hover2"></span></button>
+              <button id="buttonBlue" onclick="ClickcounterBlue()" onmouseover="onHoverBlue() ">Blue count: <span id="count3"></span> hover: <span id="hover3"></span></button>
+              <script src="main.js"></script>
+        </body>
+    </html>
